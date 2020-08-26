@@ -46,7 +46,7 @@ def gen_a_testcase_row(testcase_dict):
     case_keyword = ''
     case_priority = gen_case_priority(testcase_dict['importance'])
     case_type = gen_case_type(testcase_dict['execution_type'])
-    case_apply_phase = '迭代测试'
+    case_apply_phase = '测试阶段'
     row = [case_module, case_title, case_precontion, case_step, case_expected_result, case_keyword, case_priority, case_type, case_apply_phase]
     return row
 
